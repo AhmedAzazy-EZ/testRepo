@@ -1,6 +1,6 @@
 https://www.espressif.com/sites/default/files/documentation/4b-esp8266_at_command_examples_en.pdf 
 
 
-
+https://www.esp8266.com/viewtopic.php?f=12&t=13556&fbclid=IwAR2tSxJ_JMt7lctMYqQ8dUGzlfA9uL99K
 
 https://www.espressif.com/sites/default/files/documentation/4a-esp8266_at_instruction_set_en.pdf
