@@ -1,6 +1,143 @@
 https://www.espressif.com/sites/default/files/documentation/4b-esp8266_at_command_examples_en.pdf 
 
 
-https://www.esp8266.com/viewtopic.php?f=12&t=13556&fbclid=IwAR2tSxJ_JMt7lctMYqQ8dUGzlfA9uL99K
+
 
 https://www.espressif.com/sites/default/files/documentation/4a-esp8266_at_instruction_set_en.pdf
+
+
+AT+RESTORE		//FACTORY RESET
+
+AT+CWMODE=3
+
+AT+CIPMODE=0		//uart WIFI PASSTHROUGH
+
+AT+CIPMUX=0		SINGLE CONNECTION
+
+AT+CWJAP_CUR="el2","el2112017"	//connect to wifi
+
+AT+CIPSTART="TCP","httpbin.org",80
+
+AT+CIPSEND=19
+
+GET /get HTTP/1.1
+
+AT+CIPCLOSE		//CLOSE CONNECTION
+
+
+
+
+AT+CIPSTART="SSL","http://support.oneskyapp.com",443
+
+AT+CIPSTART="TCP","httpbin.org",80
+
+AT+CIPSTART="TCP","doc-00-6c-docs.googleusercontent.com",80
+
+AT+CIPSTART="TCP","support.oneskyapp.com",80
+
+
+curl -X GET "http://httpbin.org/image" -H "accept: image/webp"
+
+
+GET http://httpbin.org/get
+
+
+-----------------------Github-------------------------
+
+https://support.oneskyapp.com/hc/en-us/article_attachments/202761627/example_1.json
+
+
+
+GET hc/en-us/article_attachments/202761627/example_1.json HTTP/1.1
+
+
+
+
+
+AT+HTTPCLIENT=<opt>,<content-type>,<"url">,[<"host">],[<"path">],<transport_type>[,<"data">][,<"http_req_header">][,<"http_req_header">][...]
+
+
+
+
+AT+HTTPCLIENT=2,1,"https://support.oneskyapp.com/hc/en-us/article_attachments/202761627/example_1.json","","",1
+
+
+
+https://newreleases.io/project/github/espressif/esp-at/release/v2.2.0.0_esp8266
+
+
+--------------------Last example------------------
+
+page Source : view-source:httpbin.org/get
+
+AT+CIPSTART="TCP","httpbin.org",80
+
+AT+CIPSEND=28
+
+GET http://httpbin.org/get
+
+
+--------------------Mediafire------------------
+
+https://download1484.mediafire.com/s7tmp2hg5ctg/a9ln540h7e7n361/test.pdf
+
+
+AT+CIPSTART="TCP","download1484.mediafire.com",80
+
+
+AT+CIPSEND=143
+
+GET http://download1484.mediafire.com/s7tmp2hg5ctg/a9ln540h7e7n361/test.pdf
+User-Agent: curl/7.37.0
+Host: download1484.mediafire.com
+Accept: */*
+
+GET http://download1484.mediafire.com/s7tmp2hg5ctg/a9ln540h7e7n361/test.pdf
+
+--------------------tutorial point test---------------/
+
+AT+CIPSTART="TCP","tutorialspoint.com",80
+
+
+AT+CIPSEND=185
+
+GET /hello.htm
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+Host: www.tutorialspoint.com
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+
+
+
+------------------------------------
+
+http://info.cern.ch/hypertext/WWW/TheProject.html
+
+
+AT+CIPSTART="TCP","info.cern.ch",80
+
+AT+CIPSEND=55
+
+GET http://info.cern.ch/hypertext/WWW/TheProject.html
+
+------------------Image---------------------
+
+http://www.columbia.edu/~fdc/picture-of-something.jpg
+
+
+AT+CIPSTART="TCP","columbia.edu",80
+
+AT+CIPSEND=59
+
+GET http://www.columbia.edu/~fdc/picture-of-something.jpg
+
+-----------------text------------------------
+
+http://epncb.oma.be/ftp/data/format/sp3c.txt
+
+AT+CIPSTART="TCP","epncb.oma.be",80
+
+AT+CIPSEND=50
+
+GET http://epncb.oma.be/ftp/data/format/sp3c.txt
