@@ -141,3 +141,16 @@ AT+CIPSTART="TCP","epncb.oma.be",80
 AT+CIPSEND=50
 
 GET http://epncb.oma.be/ftp/data/format/sp3c.txt
+
+
+
+--------------hex file-Working---------------------------
+
+http://venividiwiki.ee.virginia.edu/mediawiki/images/0/0a/UvaFpgaLab8.hex
+
+
+AT+CIPSTART="TCP","venividiwiki.ee.virginia.edu",80
+
+AT+CIPSEND=79
+
+GET http://venividiwiki.ee.virginia.edu/mediawiki/images/0/0a/UvaFpgaLab8.hex
