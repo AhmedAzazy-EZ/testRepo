@@ -154,3 +154,7 @@ AT+CIPSTART="TCP","venividiwiki.ee.virginia.edu",80
 AT+CIPSEND=79
 
 GET http://venividiwiki.ee.virginia.edu/mediawiki/images/0/0a/UvaFpgaLab8.hex
+
+
+---------------------NFC Cards-------------------------------
+https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.182.671&rep=rep1&type=pdf
