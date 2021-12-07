@@ -158,3 +158,7 @@ GET http://venividiwiki.ee.virginia.edu/mediawiki/images/0/0a/UvaFpgaLab8.hex
 
 ---------------------NFC Cards-------------------------------
 https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.182.671&rep=rep1&type=pdf
+
+
+--------------------PCB Altium Design Course---------------------------------
+https://www.udemy.com/course/learn-to-design-your-own-boards/
