@@ -1,3 +1,5 @@
+NVIC_DisableIRQ(IRQn_Type IRQn)
+
 https://www.espressif.com/sites/default/files/documentation/4b-esp8266_at_command_examples_en.pdf 
 
 
