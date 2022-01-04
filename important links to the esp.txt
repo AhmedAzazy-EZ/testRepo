@@ -10,15 +10,26 @@ https://www.espressif.com/sites/default/files/documentation/4a-esp8266_at_instru
 
 AT+RESTORE		//FACTORY RESET
 
+AT+UART_CUR=4800,8,1,0,0
+
 AT+CWMODE=3
 
 AT+CIPMODE=0		//uart WIFI PASSTHROUGH
 
 AT+CIPMUX=0		SINGLE CONNECTION
 
-AT+CWJAP_CUR="el2","el2112017"	//connect to wifi
+AT+CWJAP_CUR="GREEN-SQUARE","10T122021"	//connect to wifi  
 
-AT+CIPSTART="TCP","httpbin.org",80
+AT+CWJAP_CUR="Ez","25642564"	//connect to wifi 
+
+AT+CIPSTART="TCP","venividiwiki.ee.virginia.edu",80
+
+AT+CIPSEND=79
+
+GET /mediawiki/images/0/0a/UvaFpgaLab8.hex
+
+
+AT+CIPSTART="TCP","venividiwiki.ee.virginia.edu",80
 
 AT+CIPSEND=19
 
