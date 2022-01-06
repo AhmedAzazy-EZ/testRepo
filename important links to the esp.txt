@@ -22,6 +22,8 @@ AT+CWJAP_CUR="GREEN-SQUARE","10T122021"	//connect to wifi
 
 AT+CWJAP_CUR="Ez","25642564"	//connect to wifi 
 
+AT+CWJAP_CUR="AZ","AZZ111971997"	//connect to wifi 
+
 AT+CIPSTART="TCP","venividiwiki.ee.virginia.edu",80
 
 AT+CIPSEND=79
