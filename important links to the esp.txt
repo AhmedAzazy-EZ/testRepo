@@ -26,7 +26,7 @@ AT+CWJAP_CUR="AZ","AZZ111971997"	//connect to wifi
 
 AT+CIPSTART="TCP","venividiwiki.ee.virginia.edu",80
 
-AT+CIPSEND=79
+AT+CIPSEND=44
 
 GET /mediawiki/images/0/0a/UvaFpgaLab8.hex
 
