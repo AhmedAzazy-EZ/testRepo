@@ -24,6 +24,8 @@ AT+CWJAP_CUR="Ez","25642564"	//connect to wifi
 
 AT+CWJAP_CUR="AZ","AZZ111971997"	//connect to wifi 
 
+AT+CIPSTART="TCP","196.218.181.174",80
+
 AT+CIPSTART="TCP","venividiwiki.ee.virginia.edu",80
 
 AT+CIPSEND=44
