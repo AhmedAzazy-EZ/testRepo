@@ -21,3 +21,10 @@ AT+MQTTSUB=0,"AzazyEz",0					//subscribe to the topic "AzazyEz"
 5- Done 
 
 The ESP Will receive the published message
+
+
+
+---------------------------Publish to a topic
+1- First subscrib to "AzazyEz" topic using the browse client.
+2- publish the message to the topic using the esp as following:
+	AT+MQTTPUB=0,"AzazyEz","LoOoOol",0,0
