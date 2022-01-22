@@ -1,0 +1,23 @@
+AT+MQTTUSERCFG=0,1,"ESPEL2","AzazyEl2","passpass",0,0,""		//set the node configurations
+AT+MQTTCONN=0,"broker.hivemq.com",1883,0			//connect to a broker
+AT+MQTTSUB=0,"AzazyEz",0					//subscribe to the topic "AzazyEz"
+
+
+
+1- Now open MQTT Client from the browser This Link http://www.hivemq.com/demos/websocket-client/
+
+2-enter these info:
+	Host:broker.mqttdashboard.com
+	port:8000
+	client ID: use the default or you can change it as you like.
+	
+3- connect
+
+4- Now publish to the topic 
+	in topic field , Enter: AzazyEz
+	in message box , write the message
+	click Publish
+	
+5- Done 
+
+The ESP Will receive the published message
