@@ -32,3 +32,7 @@ The ESP Will receive the published message
 	
 -------------------------installing MQTT Broker on Windows Machine-----------------
 http://www.steves-internet-guide.com/install-mosquitto-broker/
+
+
+-------------------------MQTT Documentation------------------------------
+http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc385349223
