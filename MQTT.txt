@@ -28,3 +28,7 @@ The ESP Will receive the published message
 1- First subscrib to "AzazyEz" topic using the browse client.
 2- publish the message to the topic using the esp as following:
 	AT+MQTTPUB=0,"AzazyEz","LoOoOol",0,0
+	
+	
+-------------------------installing MQTT Broker on Windows Machine-----------------
+http://www.steves-internet-guide.com/install-mosquitto-broker/
