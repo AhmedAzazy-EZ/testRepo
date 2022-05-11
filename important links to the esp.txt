@@ -20,7 +20,7 @@ AT+CIPMUX=0		SINGLE CONNECTION
 
 AT+CWJAP_CUR="GREEN-SQUARE","10T122021"	//connect to wifi  
 
-AT+CWJAP_CUR="Ez","25642564"	//connect to wifi 
+AT+CWJAP="Az","25642564"	//connect to wifi 
 
 AT+CWJAP_CUR="AZ","AZZ111971997"	//connect to wifi 
 
